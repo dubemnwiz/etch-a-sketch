@@ -1,15 +1,17 @@
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 
 #container {
-    max-height: 1000px;
-    max-width: 1000px;
+    max-height: 960px;
+    max-width: 960px;
     position: relative;
     align-self: center;
     display: flex;
     flex-wrap: wrap;
+    border: 0.5px solid black;
 }
 
 .grid-item {
@@ -18,4 +20,15 @@ body {
     margin: 0px;
     padding: 0px;
     flex-basis: 1;
+}
+
+button {
+    max-height: 20px;
+    max-width: 100px;
+    align-self: center;
+    margin: 30px 0;
+}
+
+.buttons {
+    align-self: center;
 }
